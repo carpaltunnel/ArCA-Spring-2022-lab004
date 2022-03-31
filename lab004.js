@@ -1,7 +1,7 @@
 // Create array with 100 items
 const create100ItemArray = () => {
   const items = [];
-  for (let x = 0; x <= 100; x++) {
+  for (let x = 1; x <= 100; x++) {
     items.push(x);
   }
 
