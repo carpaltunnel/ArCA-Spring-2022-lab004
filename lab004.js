@@ -9,7 +9,7 @@ const create100ItemArray = () => {
 }
 
 const items = create100ItemArray();
-console.log(`Created array wih ${items.length} items.`);
+console.warn(`Created array wih ${items.length} items.`);
 
 // Sort items descending
 items.sort((a, b) => a < b ? -1 : 1);
