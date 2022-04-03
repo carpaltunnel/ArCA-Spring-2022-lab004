@@ -12,6 +12,6 @@ const items = create100ItemArray();
 console.warn(`Created array wih ${items.length} items.`);
 
 // Sort items descending
-items.sort((a, b) => a < b ? -1 : 1);
+items.sort((a, b) => a > b ? -1 : 1);
 
 console.log(`After sorting items in descending order, the first item is ${items[0]}`);
